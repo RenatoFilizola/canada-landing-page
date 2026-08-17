@@ -1,0 +1,72 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E2E4F"/>
+      <stop offset="0.52" stop-color="#356B8B"/>
+      <stop offset="1" stop-color="#E8C9A1"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF8E6" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFD78A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mountainBack" x1="400" y1="260" x2="560" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE8EF"/>
+      <stop offset="0.4" stop-color="#7895A9"/>
+      <stop offset="1" stop-color="#1E4357"/>
+    </linearGradient>
+    <linearGradient id="mountainFront" x1="850" y1="250" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F7F7"/>
+      <stop offset="0.22" stop-color="#A4B6C1"/>
+      <stop offset="0.58" stop-color="#4C6978"/>
+      <stop offset="1" stop-color="#193C45"/>
+    </linearGradient>
+    <linearGradient id="forest" x1="800" y1="560" x2="800" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173E35"/>
+      <stop offset="1" stop-color="#071E1C"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="800" y1="760" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A7180"/>
+      <stop offset="0.45" stop-color="#184755"/>
+      <stop offset="1" stop-color="#082C36"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="1100" y1="150" x2="1450" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D72D37" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#D72D37" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur40" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="blur80" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1210" cy="245" r="205" fill="url(#sun)" filter="url(#blur40)"/>
+  <ellipse cx="1355" cy="250" rx="260" ry="310" fill="url(#redGlow)" filter="url(#blur80)"/>
+  <g opacity="0.35" fill="#F8FBFC">
+    <ellipse cx="300" cy="205" rx="230" ry="34"/>
+    <ellipse cx="430" cy="242" rx="190" ry="25"/>
+    <ellipse cx="1080" cy="160" rx="250" ry="28"/>
+  </g>
+  <path d="M0 690L210 500L360 590L590 350L850 650L1050 420L1240 590L1450 385L1600 540V790H0V690Z" fill="url(#mountainBack)"/>
+  <path d="M590 350L530 500L620 460L690 535L735 520L850 650L690 590L530 605L360 590L590 350Z" fill="#EFF5F7" fill-opacity="0.82"/>
+  <path d="M1050 420L975 540L1048 512L1117 580L1165 560L1240 590L1050 420Z" fill="#F7FAFB" fill-opacity="0.75"/>
+  <path d="M1450 385L1370 510L1440 490L1490 545L1530 520L1600 540L1450 385Z" fill="#F7FAFB" fill-opacity="0.78"/>
+  <path d="M0 755L230 575L435 715L680 405L900 725L1140 505L1320 675L1600 500V830H0V755Z" fill="url(#mountainFront)"/>
+  <path d="M680 405L586 570L676 530L765 616L812 590L900 725L775 650L650 645L545 680L435 715L680 405Z" fill="#FFFFFF" fill-opacity="0.88"/>
+  <path d="M1140 505L1068 610L1140 580L1205 643L1248 620L1320 675L1140 505Z" fill="#F8FAFB" fill-opacity="0.77"/>
+  <path d="M0 750C150 690 290 730 400 700C545 660 600 730 760 700C900 675 1040 735 1180 690C1330 645 1460 690 1600 650V850H0V750Z" fill="url(#forest)"/>
+  <g fill="#C89022">
+    <path d="M135 720L160 625L185 720H135Z"/><path d="M170 728L205 585L240 728H170Z"/><path d="M255 735L292 600L330 735H255Z"/>
+    <path d="M1190 710L1220 580L1250 710H1190Z"/><path d="M1260 720L1300 555L1340 720H1260Z"/><path d="M1370 710L1408 590L1445 710H1370Z"/>
+  </g>
+  <g fill="#153E35">
+    <path d="M15 790L65 600L115 790H15Z"/><path d="M90 795L145 550L200 795H90Z"/><path d="M330 795L380 610L430 795H330Z"/><path d="M420 800L475 570L530 800H420Z"/>
+    <path d="M940 800L995 560L1050 800H940Z"/><path d="M1040 800L1100 595L1160 800H1040Z"/><path d="M1450 800L1510 565L1570 800H1450Z"/>
+  </g>
+  <path d="M0 790C250 770 480 812 735 782C1010 750 1260 800 1600 755V1000H0V790Z" fill="url(#lake)"/>
+  <path d="M0 820C250 800 480 845 735 812C1010 780 1260 830 1600 785" stroke="#9FC5CB" stroke-opacity="0.25" stroke-width="4"/>
+  <path d="M70 885C260 860 420 900 620 875" stroke="#D5EBED" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+  <path d="M980 900C1170 875 1330 915 1510 890" stroke="#D5EBED" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+  <rect width="1600" height="1000" fill="url(#redGlow)" opacity="0.28"/>
+</svg>
